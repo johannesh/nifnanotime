@@ -1,0 +1,5 @@
+priv/*.so
+c_src/*.o
+c_src/*.d
+ebin/*
+.rebar
