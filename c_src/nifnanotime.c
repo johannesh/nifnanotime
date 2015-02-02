@@ -4,7 +4,7 @@
 static ERL_NIF_TERM
 NIF_do_nothing(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])
 {
-	return enif_make_long(env, 0);
+	return enif_make_int(env, 0);
 }
 
 static ERL_NIF_TERM
